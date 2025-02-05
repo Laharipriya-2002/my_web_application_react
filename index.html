@@ -1,11 +1,13 @@
+<!doctype html>
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + React</title>
+    <base href="/react_application/" />
     <title>Vite + React + TS</title>
-
     <script type="text/javascript">
       (function (l) {
         if (l.search[1] === "/") {
@@ -23,6 +25,8 @@
   </head>
   <body>
     <div id="root"></div>
+    <button onclick="window.location.href='/src/main.jsx'">Go to main.jsx</button>
+    <script type="module" src="/assets/index.js"></script>
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
